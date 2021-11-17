@@ -676,7 +676,7 @@ declare namespace  __React {
     export interface LayoutChangeEvent {
         nativeEvent: {
             layout: LayoutRectangle
-            target: number | null | undefined
+            target: EventTarget | null | undefined
         }
     }
 
