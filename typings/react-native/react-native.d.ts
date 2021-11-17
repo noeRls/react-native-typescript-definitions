@@ -1053,7 +1053,7 @@ declare namespace  __React {
         /**
          * Callback that is called when the text input's text changes.
          */
-        onChange?: ( event: {nativeEvent: {text: string}} ) => void
+        onChange?: ( event: {nativeEvent: {text: string, target: EventTarget, eventCount: number}} ) => void
 
         /**
          * Callback that is called when the text input's text changes.
